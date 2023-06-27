@@ -5,7 +5,7 @@ CONTACTS:
 
 •	Location: Armenia
 •	Phone: +374 55179894
-•	Email: khorobrykhrita@gmail.com
+•	email: khorobrykhrita@gmail.com
 •	GitHub: RitaKhor
 •	Discord: RitaKhor
 
