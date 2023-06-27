@@ -29,7 +29,7 @@ LEARNING PROJECT:
 2.	https://ritakhor.github.io/pulse/dist/
 
 
-EDUCATION:
+EDUCATION: 
 
 •	Udemy (HTML/CSS, JavaScript – in process)
 
@@ -37,4 +37,4 @@ EDUCATION:
 LANGUAGES:
 
 •	Russian
-•	English (A1)
+•	English(A1)
