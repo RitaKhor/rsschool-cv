@@ -1,1 +1,181 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/svg/images.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section>
+            <div class="container">
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="assets/img/rita.jpg" alt="ritakhorobrykh">
+                        <div class="profile-subphoto">Junior Front-end Developer</div>
+                    </div>
+                    <div class="profile-description">
+                        <h1 class="profile-title">Rita Khorobrykh</h1>
+                        <h2 class="profile-subtitle">Junior Front-end Developer</h2>
+                        <h3 class="title" id="contacts">Contacts</h3>
+                        <div class="line"></div>
+                        <ul class="contacts-list">
+                            <li class="contacts-item">
+                                <div class="contacts-block"><img src="assets/svg/location.png" alt="location"></div>
+                                Armenia
+                            </li>
+                            <li class="contacts-item">
+                                <div class="contacts-block"><img src="assets/svg/phone.png" alt="phone"></div>
+                                +374 55179894
+                            </li>
+                            <li class="contacts-item">
+                                <div class="contacts-block"><img src="assets/svg/email.png" alt="email"></div>
+                                <a class="contacts-link"
+                                    href="mailto:khorobrykhrita@gmail.com">khorobrykhrita@gmail.com</a>
+                            </li>
+                            <li class="contacts-item">
+                                <div class="contacts-block"><img src="assets/svg/github.png" alt="github"></div>
+                                <a class="contacts-link" href="https://github.com/RitaKhor">RitaKhor</a>
+                            </li>
+                            <li class="contacts-item">
+                                <div class="contacts-block"><img src="assets/svg/discord.png" alt="discord"></div>
+                                RitaKhor
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="summary" id="summary">
+            <div class="container">
+                <h2 class="title">Summary</h2>
+                <div class="line"></div>
+                <p class="summary-about">My goal is to become a good specialist, constantly learning something
+                    new.
+                    I don't give up on difficult tasks and bring them to a solution. I can work well in a team.
+                    I
+                    have already started studying code and I really enjoyed it. I hope to gain a lot of
+                    knowledge
+                    and skills in rs school so I can get a job.</p>
+            </div>
+        </section>
+
+        <section class="first-block">
+            <div class="container">
+                <div class="first-block-wrapper">
+                    <div class="skills" id="skills">
+                        <h2 class="title">Skills</h2>
+                        <div class="line"></div>
+                        <ul>
+                            <li class="item-square">HTML</li>
+                            <li class="item-square">CSS (SASS, SCSS, BEM, Bootstrap)</li>
+                            <li class="item-square">Git, GitHub</li>
+                            <li class="item-square">Gulp</li>
+                            <li class="item-square">VsCode</li>
+                            <li class="item-square">Figma</li>
+                        </ul>
+                    </div>
+
+                    <div class="projects" id="projects">
+                        <h2 class="title">LEARNING PROJECT</h2>
+                        <div class="line"></div>
+                        <ol>
+                            <li class="item-ordered"><a class="projects-link" href="https://ritakhor.github.io/"
+                                    target="_blank">uber</a></li>
+                            <li class="item-ordered"><a class="projects-link"
+                                    href="https://ritakhor.github.io/pulse/dist/" target="_blank">pulse</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="code" id="code">
+            <div class="container">
+                <div class="code-wrapper">
+                    <div class="code-title">
+                        <h2 class="title">Code</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="code-example">
+                        const hamburger = document.querySelector('.hamburger'),<br>
+                        &nbsp; &nbsp; menu = document.querySelector('.menu'),<br>
+                        closeElem = document.querySelector('.menu__close');
+                        <br><br>
+                        hamburger.addEventListener('click', () => {<br>
+                        &nbsp; &nbsp; menu.classList.add('active');<br>
+                        });<br>
+                        <br>
+                        closeElem.addEventListener('click', () => {<br>
+                        &nbsp; &nbsp; menu.classList.remove('active');<br>
+                        });
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="second-block">
+            <div class="container">
+                <div class="second-block-wrapper">
+                    <div class="education" id="courses">
+                        <h2 class="title">Education</h2>
+                        <div class="line"></div>
+                        <ol>
+                            <li class="item-ordered">Udemy (HTML/CSS)</li>
+                            <li class="item-ordered">Udemy (JavaScript – in process)</li>
+                        </ol>
+                    </div>
+
+                    <div class="languages" id="languages">
+                        <h2 class="title">Languages</h2>
+                        <div class="line"></div>
+                        <ul>
+                            <li class="item-square">Russian (native)</li>
+                            <li class="item-square">English (A1)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-year">
+                    <div class="footer-copyright">© 2023</div>
+                    <a class="footer-link" href="https://github.com/RitaKhor" target="_blank">RitaKhor</a>
+                </div>
+                <a href="https://rs.school/js/" target="_blank"><img class="footer-img"
+                        src="assets/svg/rs_school-og.png" alt="rs_school"></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
