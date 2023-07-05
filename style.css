@@ -229,6 +229,11 @@ body {
   width: 50%;
 }
 
+code {
+  padding: 0 10px 0 10px;
+  border: 1px solid #ffca05;
+}
+
 .footer {
   margin-top: 50px;
   padding: 0 47px 0 47px;

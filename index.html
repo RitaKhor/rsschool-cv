@@ -121,19 +121,21 @@
                         <h2 class="title">Code</h2>
                         <div class="line"></div>
                     </div>
-                    <div class="code-example">
-                        const hamburger = document.querySelector('.hamburger'),<br>
-                        &nbsp; &nbsp; menu = document.querySelector('.menu'),<br>
-                        closeElem = document.querySelector('.menu__close');
-                        <br><br>
-                        hamburger.addEventListener('click', () => {<br>
-                        &nbsp; &nbsp; menu.classList.add('active');<br>
-                        });<br>
-                        <br>
-                        closeElem.addEventListener('click', () => {<br>
-                        &nbsp; &nbsp; menu.classList.remove('active');<br>
-                        });
-                    </div>
+                    <code>
+                            <pre>
+const hamburger = document.querySelector(".hamburger"),
+    menu = document.querySelector(".menu"),
+    closeElem = document.querySelector(".menu__close");
+                              
+hamburger.addEventListener("click", () => {
+    menu.classList.add("active");
+});
+                              
+closeElem.addEventListener("click", () => {
+    menu.classList.remove("active");
+    });
+                            </pre>
+                        </code>
                 </div>
             </div>
         </section>
@@ -172,7 +174,6 @@
                 </div>
                 <a href="https://rs.school/js/" target="_blank"><img class="footer-img"
                         src="assets/svg/rs_school-og.png" alt="rs_school"></a>
-
             </div>
         </div>
     </footer>
