@@ -69,9 +69,10 @@ body {
 }
 
 .footer-img {
-    background-image: url(https://rs.school/assets/rs-school-CZS_yQWd.webp);
-    width: 100px;
-    height: 100px;
+    background-image: url(/rsschool-cv/assets/img/rs-school-logo.svg);
+    background-color: #fff;
+    width: 130px;
+    height: 50px;
     background-size: contain;
     background-repeat: no-repeat;
 }
